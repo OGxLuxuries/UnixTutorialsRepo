@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    padding: 0;
+    background-color: white;  
+
+}
+header > a img {
+    width: 100%;
+    position: relative;
+
+}
+
+/* Navbar container */
+.navbar {
+    
+    border-bottom: #8f8f8f solid 4px;
+    overflow: hidden;
+    background-color: white;
+    font-family: "Anta", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #8f8f8f;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #d9d9d9;
+    color: #8f8f8f;  
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8f8f8f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #d9d9d9;
+    color: #8f8f8f;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+    background-color: #278a47;
+
+}
+.adv-bkgd {
+    background-color: #a80d67;
+}
+.wfs-bkgd {
+    background-color: #2596be;
+}
+.page-title {
+    font-size: xx-large;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10em;
+}
+.green {
+    background-color: #278a47; 
+}
+
+.blue {
+    background-color: #2596be;
+}
+.page-title-adv {
+    background-color: #a80d67;
+}
+.center {
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    margin-top: 2em;
+    max-width: 70vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 1.5em;
+    font-family: "Lato", sans-serif;  
+}
+main section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h2  {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+h3  {
+    margin: 0.75em;
+}
+
+p , textarea{
+    margin-left: 2em;
+}
+
+.terminal {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.terminal .p1 {
+    border-bottom: solid;
+}
+
+.terminal .p2 {
+    background: black;
+}
+
+.commands {
+    color: #a80d67;
+    background-color: white;
+    padding: 0.5em 2em 0.5em 2em;
+    width: max-content;
+    border-radius: 25px;
+    margin-top: 2em;
+}
+.true-false{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 1em;
+    
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 10px;
+}
+fieldset {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+legend {
+    font-family: "Lato", sans-serif; 
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+fieldset p, fieldset input {
+    margin: 1em;
+}
+.submit-button {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Display as an inline block */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    width: 80vw; /* Cursor style */
+}
+
+/* Hover effect */
+.submit-button:hover {
+    background-color: #45a049; /* Darker green background color */
+}
+.button-container {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.video-container {
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #278a47;
+}
+.video-container-adv {
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #a80d67;
+}
+.video-container-wfs {
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #2596be;
+}
+
+.video-container h2 {
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.video-container-wfs h2 {
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.video-container-adv h2 {
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+#FormErrorMsg {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+footer {
+    font-family: "Lato", sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.intro h2, h3  {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2.5em;
+    
+}
+
+.intro h3 {
+    background-color: rgba(255, 255, 255, 0.45);
+    
+}
+
+.intro p {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2.5em;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.intro hr {
+    color: white;
+    border: 2px solid white;
+}
+.prev-next {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    column-gap: 5em;
+    margin: 0.5em auto;
+}
+.prev-next button {
+    padding: 1em 2em;
+    margin: 1em;
+    background-color: #f0f0f0;
+    border: 1px solid #2596be ;
+    border-radius: 3em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.prev-next button:hover {
+    background-color: #2596be;
+    color: white;
+}
+.invisible {
+    display: none;
+}
+.intro ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-around;
+    margin: 3em;
+}
+
+.intro ul li {
+    background-color: white;
+    padding: 0.5em;
+}
+ul.cmd-seq {
+    flex-flow: column nowrap;
+    
+    justify-content: center;
+    margin: auto;
+    border: 4px solid white;
+    
+
+}
+ul.cmd-seq li {
+    background-color: #333;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    
+  }
+.intro span {
+    font-weight: bold;
+    color: #2596be;
+    background-color: #333;
+    
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}

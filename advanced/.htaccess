@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic
+#Put the path to your htpasswd file. This will be different, put in your username instead of odg1896
+AuthUserFile /home/iste240t89/Sites/.htpasswd
+require valid-user
